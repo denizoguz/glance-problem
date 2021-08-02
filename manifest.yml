@@ -1,0 +1,12 @@
+modules:
+  jira:issueGlance:
+    - key: todo-panel
+      resource: main
+      title: Todos
+      label: Todos
+resources:
+  - key: main
+    path: static/spa/build
+permissions:
+  scopes:
+    - storage:app
